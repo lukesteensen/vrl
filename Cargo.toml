@@ -345,3 +345,23 @@ required-features = ["default", "test"]
 [[bench]]
 name = "for_each"
 harness = false
+
+[[bench]]
+name = "objectmap"
+harness = false
+required-features = ["default", "test"]
+
+[[bench]]
+name = "objectmap_cliff"
+harness = false
+required-features = ["default", "test"]
+
+[[bench]]
+name = "objectmap_hybrid"
+harness = false
+required-features = ["default", "test"]
+
+[[bench]]
+name = "keystring"
+harness = false
+required-features = ["default", "test"]
